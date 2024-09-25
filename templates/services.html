@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пошив одежды по меркам</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/AtelierCSS.css') }}">
+    <nav class="container">
+    <ul class="topmenu">
+    <li><a href="{{ url_for('index') }}">Главная</a></li>
+        </ul>
+    </nav>
+
+</head>
+<body>
+    <center><h1>Пошив одежды по индивидуальным меркам</h1></center>
+ <div class="img">
+    <img src="{{ url_for('static', filename='img/at.jpg') }}">
+ </div>
+
+    <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/8.JPG') }}">
+        <figcaption>Юбка без подкладки - от 3500
+            </figcaption>
+        <figcaption>Юбка на подкладке - от 4500
+            </figcaption>
+    </figure>
+
+     <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/9.jpg') }}">
+        <figcaption>Брюки без подкладки - от 4500
+            </figcaption>
+        <figcaption>Брюки на подкладке - от 5000
+            </figcaption>
+         <figcaption>Шорты - от 4000
+            </figcaption>
+    </figure>
+
+    <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/11.jpg') }}">
+        <figcaption>Платье без подкладки - от 4000
+            </figcaption>
+        <figcaption>Платье на подкладке - от 5000
+            </figcaption>
+         <figcaption>Платье вечернее - от 10000
+            </figcaption>
+    </figure>
+
+    <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/10.jpg') }}">
+        <figcaption>Сарафан - от 3500
+            </figcaption>
+    </figure>
+
+
+    <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/13.jpg') }}">
+        <figcaption>Блузка - от 4000
+            </figcaption>
+    </figure>
+
+    <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/14.jpg') }}">
+        <figcaption>Рубашка - от 4000
+            </figcaption>
+    </figure>
+
+
+    <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/6.jpg') }}">
+        <figcaption>Апсайклинг рубашка - от 3500
+            </figcaption>
+    </figure>
+
+
+     <figure>
+        <img class=scaled src="{{ url_for('static', filename='img/15.jpg') }}">
+        <figcaption>Шоппер - от 1500
+            </figcaption>
+    </figure>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

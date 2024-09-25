@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Апсайклинг</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/AtelierCSS.css') }}">
+</head>
+<body>
+        <div class="img">
+            <img src="{{ url_for('static', filename='img/at.jpg') }}">
+        </div>
+    <nav>
+        <nav class="container">
+            <ul class="topmenu">
+            <li><a href="{{ url_for('index') }}">Главная</a></li>
+            </ul>
+        </nav>
+
+    <center><h1>Апсайклинг</h1></center>
+
+    <div class="article">
+        <p>Если кратко, то это творческий подход к «новому прочтению» старых вещей.
+            Сегодня очень модно визуально обозначать себя в социуме, мгновенно передавать свою индивидуальность с помощью одежды.
+            Человек, который смело одевается, как правило имеет свой взгляд на мир и не боится его обозначать.
+            И это позволяет именно upcycling одежда.
+            Ценность её в том, что это качественная ручная работа, которая становится ключевым принципом образа.
+            Поэтому, такая мода уже отвоевала себе нишу на рынке современной одежды.
+            Все изделия создаются из материалов, бывших в использовании, и в своем дизайне никогда не повторяются!</p>
+
+    <div class="imgs">
+            <img src="{{ url_for('static', filename='img/2.jpg') }}" width="300" height="300">
+
+            <img src="{{ url_for('static', filename='img/4.jpg') }}" width="300" height="300">
+
+            <img src="{{ url_for('static', filename='img/7.jpg') }}" width="300" height="300">
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

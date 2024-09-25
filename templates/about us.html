@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>О нас</title>
+    <body>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/AtelierCSS.css') }}">
+    </body>
+</head>
+<body>
+    <div class="img">
+        <img src="{{ url_for('static', filename='img/at.jpg') }}">
+    </div>
+    <nav class="container">
+    <ul class="topmenu">
+    <li><a href="{{ url_for('index') }}">Главная</a></li>
+        </ul>
+    </nav>
+    <center><h1>О нас</h1></center>
+
+<div class="responsive-container-block bigContainer">
+  <div class="responsive-container-block Container">
+    <img class="mainImg" src="{{ url_for('static', filename='img/156.jpg',width="200" ,height="100")}}">
+    <div class="allText aboveText">
+      <p class="text-blk subHeadingText">
+        ПОЗНАКОМИМСЯ!
+        Меня зовут Надежда Логинова, я профессиональный модельер.
+        Я занимаюсь дизайном одежды во всех его проявлениях
+      </p>
+      <p class="text-blk description">
+        Придумываю!
+        Рисую!
+        Конструирую!
+        Крою!
+        Шью!
+        Стилизую!
+        И вообще, без скромности замечу, делаю людей не просто нарядными, а счастливыми!!!
+        Ведь одежда, это не то, что хранится у нас в шкафу!
+        Одежда - это целая история, это эмоции, это самовыражение!
+      </p>
+    </div>
+  </div>
+</div>
+
+ </body>
+</html>        								

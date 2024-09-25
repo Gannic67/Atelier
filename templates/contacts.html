@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/AtelierCSS.css') }}">
+</head>
+<body>
+    <div class="img">
+        <img src="{{ url_for('static', filename='img/at.jpg') }}">
+    </div>
+   <nav class="container">
+    <ul class="topmenu">
+    <li><a href="{{ url_for('index') }}">Главная</a></li>
+        </ul>
+    </nav>
+    <center><h1>Контакты</h1></center>
+    <div class="cont">
+    <center><p>Вы можете связаться со мной по электронной почте:
+        <a href="mailto:tailor_loginova@mail.ru">tailor_loginova@mail.ru</a>
+    </p></center>
+    <center><p>Наш телефон:
+        <a href="tel:+79043649424">+7 (904) 364-94-24</a>
+    </p></center>
+    <center><p>Адрес:
+        <a href="https://yandex.ru/maps/?um=constructor%3Aec7e974cec27b366e45d727957c1966bf96d93a5e5e0d3068e751c36f2d6b54b&source=constructorLink=Шевченко 91в" target="_blank">Шевченко 91 в, Смоленск</a>
+    </p></center>
+      </div>
+
+
+    <center><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aec7e974cec27b366e45d727957c1966bf96d93a5e5e0d3068e751c36f2d6b54b&amp;
+    source=constructor" width="500" height="400" frameborder="0"></iframe></center>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>

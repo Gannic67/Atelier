@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои проекты</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/AtelierCSS.css') }}">
+
+</head>
+<body>
+    <div class="img">
+        <img src="{{ url_for('static', filename='img/at.jpg') }}">
+    </div>
+
+  <nav class="container">
+    <ul class="topmenu">
+    <li><a href="{{ url_for('index') }}">Главная</a></li>
+        </ul>
+    </nav>
+    <center><h1>Мои проекты</h1></center>
+</head>
+
+
+</body>
+</html>
